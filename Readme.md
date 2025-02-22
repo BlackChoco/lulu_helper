@@ -17,3 +17,12 @@
 需求2的拆分
 
 OCR识别字幕位置-在对应位置放上遮罩
+
+
+
+
+
+knowledge_generate.py 通过utils中的文件实现提取音频-->通过whisper_tiny来提取视频中的文字-->通过调用豆包来实现文案生成（可待优化）
+
+video_generate.py 通过对视频下方放置遮罩来实现遮盖字幕
+
